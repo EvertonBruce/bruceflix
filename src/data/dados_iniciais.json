@@ -1,0 +1,177 @@
+{
+  "categorias": [
+    {
+      "titulo": "Programação",
+      "link": "https://www.alura.com.br/formacao-front-end",
+      "cor": "#0000CD",
+      "link_extra": {
+        "text": "Formação de Front End na Alura",
+        "url": "https://www.alura.com.br/cursos-online-front-end"
+      },
+      "videos": [
+        {
+          "titulo": "Lembra Daquela I.A. Que Programava Sozinha? Então...",
+          "url": "https://www.youtube.com/watch?v=Cr89Oz0TWQM"
+        },
+        {
+          "titulo": "Agora Aquela I.A. Foi Longe Demais",
+          "url": "https://www.youtube.com/watch?v=pbVwH8o837A"
+        },
+        {
+          "titulo": "Programador Júnior precisa saber disto",
+          "url": "https://www.youtube.com/watch?v=4PEr_VFc39k&t=339s"
+        },
+        {
+          "titulo": "Pare de chutar e aprenda a display: inline #01",
+          "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
+        },
+        {
+          "titulo": "Template String: Interpolando strings com JavaScript #AluraMais",
+          "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
+        },
+        {
+          "titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
+          "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
+        },
+        {
+          "titulo": "Novidades do Angular v9",
+          "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
+        },
+        {
+          "titulo": "Base para aprender os frameworks",
+          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+        }        
+      ]
+    },
+    {
+      "titulo": "Esportes",
+      "cor": "#00C86F",
+      "link_extra": {
+        "text": "Acompanhe tudo sobre esportes",
+        "url": "https://globoesporte.globo.com/"
+      },
+      "videos": [
+        {
+          "titulo": "FAÇA ESSE TREINO EM CASA TODO DIA! (SEM EQUIPAMENTO) #FiqueEmCasa Treine#Comigo",
+          "url": "https://www.youtube.com/watch?v=dBc9BiqfkJY"
+        },
+        {
+          "titulo": "Cruzeiro 3 x 0 URT - Gols & Melhores Momentos COMPLETO - Campeonato Mineiro 2020",
+          "url": "https://www.youtube.com/watch?v=fTKslKEgmwk"
+        },
+        {
+          "titulo": "MELHORES MOMENTOS: NBA All-Star Game - NBA All-Star Weekend 2018",
+          "url": "https://www.youtube.com/watch?v=1yRXM3Dj5gc"
+        },
+        {
+          "titulo": "FIZ O TREINO DO THE ROCK E OLHA COMO FIQUEI!",
+          "url": "https://www.youtube.com/watch?v=CZtFWeOz3pg"
+        }
+      ]
+    },
+    {
+      "titulo": "Podcasts",
+      "cor": "#FF4500",
+      "videos": [
+        {
+          "titulo": "HATERS | Cortes do Flow",
+          "url": "https://www.youtube.com/watch?v=xdKFd0olxUE"
+        },
+        {
+          "titulo": "FIRST PHOENIX STUDIO - Flow Podcast",
+          "url": "https://www.youtube.com/watch?v=V0RU8ebXVsw"
+        },
+        {
+          "titulo": "Live Junina sobre diversidade em TI [Parte 1]",
+          "url": "https://www.youtube.com/watch?v=p2oh7_Ao_3Q"
+        },
+        {
+          "titulo": "Qual pior sistema que vocês já trabalharam?",
+          "url": "https://www.youtube.com/watch?v=3CpaxijXcvo"
+        }
+      ]
+    },
+    {
+      "titulo": "Filmes",
+      "cor": "orange",
+      "videos": [
+        {
+          "titulo": "Interestellar",
+          "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
+        },
+        {
+          "titulo": "The Lord of the Rings: The Fellowship of the Ring",
+          "url": "https://www.youtube.com/watch?v=V75dMMIW2B4"
+        },
+        {
+          "titulo": "READY PLAYER ONE",
+          "url": "https://www.youtube.com/watch?v=cSp1dM2Vj48"
+        },
+        {
+          "titulo": "JOKER",
+          "url": "https://www.youtube.com/watch?v=zAGVQLHvwOY"
+        }
+      ]
+    },
+    {
+      "titulo": "Games",
+      "cor": "red",
+      "link_extra": {
+        "text": "Formação de Jogos na Alura",
+        "url": "https://www.alura.com.br/formacao-jogos-unity"
+      },
+      "videos": [
+        {
+          "titulo": "EM BUSCA DO AQUÁRIO! - THE LAST OF US PART II",
+          "url": "https://www.youtube.com/watch?v=4V8Sb77-SM0"
+        },
+        {
+          "titulo": "Assassins Creed Valhalla",
+          "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
+        },
+        {
+          "titulo": "God of War 4",
+          "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
+        },
+        {
+          "titulo": "Resident Evil 8",
+          "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
+        },
+        {
+          "titulo": "Pokémon Let's Go Pikachu/Eevee",
+          "url": "https://www.youtube.com/watch?v=L56q_k2ydrs"
+        }
+      ]
+    },
+    {
+      "titulo": "Aprendendo a aprender tecnologia",
+      "cor": "#6b5be2",
+      "link_extra": {
+        "text": "Curso sobre aprendizado na Alura",
+        "url": "https://alura.com.br/curso-online-aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento"
+      },
+      "videos": [
+        {
+          "titulo": "Como estudar melhor?",
+          "url": "https://www.youtube.com/watch?v=Is6c9KSGCbk&feature=youtu.be"
+        },
+        {
+          "titulo": "Faculdade",
+          "url": "https://www.youtube.com/watch?v=jw06H8esyzQ&feature=youtu.be"
+        },
+        {
+          "titulo": "Frameworks",
+          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+        },
+        {
+          "titulo": "A mágica do Aprendizado",
+          "url": "https://www.youtube.com/watch?v=oTEXzpfEpPY"
+        },
+        {
+          "titulo": "Como aprender a programar?",
+          "url": "https://www.youtube.com/watch?v=MwCx2qKdbDw&feature=youtu.be"
+        }
+      ]
+    }
+  ]
+}
