@@ -24,6 +24,31 @@ a {
   color: inherit;
 }
 
+button {
+  padding: 10px;
+}
+
+h1 {
+  color: #00C86F;
+}
+
+.limpar {
+  margin-left: 20px;
+}
+
+.name {
+  padding: 5px 15px 15px 5px;
+  margin-bottom: 50px;
+  width: 100%;
+
+}
+
+.description {
+  padding: 5px 100px 100px 5px;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
 #root {
   min-height: calc(100vh - var(--bodyPaddingTop));
   display: flex;
