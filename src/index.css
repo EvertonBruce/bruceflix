@@ -36,19 +36,6 @@ h1 {
   margin-left: 20px;
 }
 
-.name {
-  padding: 5px 15px 15px 5px;
-  margin-bottom: 50px;
-  width: 100%;
-
-}
-
-.description {
-  padding: 5px 100px 100px 5px;
-  margin-bottom: 50px;
-  width: 100%;
-}
-
 #root {
   min-height: calc(100vh - var(--bodyPaddingTop));
   display: flex;

@@ -1,63 +1,76 @@
 import React, { useState } from 'react';
 import PagerDefaut from '../../../components/PageDefault';
 import { Link } from 'react-router-dom';
+import FormField from '../../../components/FormFields';
 
-function useFormik({
-    initialValues
-}) {
-    const [values, setValues] = useState(initialValues);
+function CadastroCategoria() {
+    const valoresIniciais = {
+        nome: '',
+        descricao: '',
+        cor: '',
+    }
 
-    function handleChange(event) {
-        const fieldName = event.target.getAttribute('name');
-        const value = event.target.value;
+    const [categorias, setCategorias] = useState([]);
+    const [values, setValues] = useState(valoresIniciais);
+
+    function setValue(chave, valor) {
         setValues({
             ...values,
-            [fieldName]: value,
+            [chave]: valor,
         });
     }
 
-    return {
-        values,
-        handleChange
+    function handleChange(e) {
+        setValue(
+            e.target.getAttribute('name'),
+            e.target.value
+        );
     }
-}
-
-function CadastroCategoria() {
-    const formik = useFormik({
-        initialValues: {
-            nomeCategoria: '',
-            descricaoCategoria: '',
-        }
-    });
 
     return (
         <PagerDefaut>
-            <h1>Cadastro de Categoria</h1>
+            <h1>Cadastro de Categoria: {values.nome}</h1>
 
             <form onSubmit={(event) => {
                 event.preventDefault();
-                window.alert(`Dados prontos para serem inseridos!`)
-            }}>
-                <input
+                setCategorias([
+                    ...categorias,
+                    values
+                ]);
+
+                setValues(valoresIniciais);
+            }
+            }>
+                <FormField
                     className="name"
                     type="text"
                     placeholder="Nome"
-                    name="nomeCategoria"
-                    id="nomeCategoria"
-                    onChange={formik.handleChange}
-                    value={formik.values.nomeCategoria}
-                /><br />
+                    name="nome"
+                    value={values.nome}
+                    onChange={handleChange}
+                />
 
-
-                <input
+                <FormField
                     className="description"
-                    type="text"
+                    type='textarea'
                     placeholder="Descrição"
-                    name="descricaoCategoria"
+                    name="descricao"
                     id="descricaoCategoria"
-                    onChange={formik.handleChange}
-                    value={formik.values.descricaoCategoria}
-                /> <br />
+                    value={values.descricao}
+                    onChange={handleChange}
+                />
+
+                <label>
+                    Cor:
+                        <FormField
+                            className="cor"
+                            type="color"
+                            name="cor"
+                            value={values.cor}
+                            onChange={handleChange}
+                         />
+
+                </label>
 
                 <button type="submit">
                     Cadastrar
@@ -67,6 +80,17 @@ function CadastroCategoria() {
                     Limpar
                 </button>
             </form><br /><br /><br />
+
+            <ul>
+                {categorias.map((categoria, indice) => {
+                    return (
+                        <li key={`${categoria}${indice}`}>
+                            {categoria.nome}
+                        </li>
+                    );
+                })}
+            </ul>
+
 
             <Link to="/">
                 Home

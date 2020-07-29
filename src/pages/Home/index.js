@@ -12,9 +12,9 @@ function Home() {
       <Menu />
 
       <BannerMain
-        videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
-        url={dadosIniciais.categorias[0].videos[0].url}
-        videoDescription={"Será o fim dos programadores?"}
+        videoTitle={dadosIniciais.categorias[3].videos[1].titulo}
+        url={dadosIniciais.categorias[3].videos[1].url}
+        videoDescription={'Assista agora!'}
       />
 
       <Carousel
