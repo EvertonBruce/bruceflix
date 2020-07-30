@@ -14,7 +14,7 @@ function Home() {
       <BannerMain
         videoTitle={dadosIniciais.categorias[3].videos[1].titulo}
         url={dadosIniciais.categorias[3].videos[1].url}
-        videoDescription={'Assista agora!'}
+        videoDescription="Assista agora!"
       />
 
       <Carousel
@@ -40,7 +40,6 @@ function Home() {
       />
 
       <Footer />
-      
     </div>
   );
 }

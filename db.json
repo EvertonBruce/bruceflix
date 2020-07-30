@@ -1,0 +1,16 @@
+{
+  "categorias": [
+    {
+      "id": 1,
+      "nome": "Programação",
+      "descricao": "Tudo sobre desenvolvimento",
+      "cor": "#0000CD"
+    },
+    {
+      "id": 2,
+      "nome": "Podcasts",
+      "descricao": "Os melhores podcasts",
+      "cor": "#FF4500"
+    }
+  ]
+}
